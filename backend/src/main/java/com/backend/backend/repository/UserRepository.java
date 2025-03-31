@@ -1,6 +1,6 @@
-package java.com.backend.backend.repository;
+package main.java.com.backend.backend.repository;
 
-import java.com.backend.backend.model.User;
+import main.java.com.backend.backend.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 import java.util.Optional;
@@ -29,7 +29,6 @@ public interface UserRepository extends JpaRepository<User, Integer> {
     Optional<User> findById(Long id);
 
     // Retrieve all users
-    List<User> findAll();
 
     // Delete user by ID
     void deleteById(Long id);

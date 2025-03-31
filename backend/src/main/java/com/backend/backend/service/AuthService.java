@@ -1,7 +1,7 @@
-package java.com.backend.backend.service;
+package main.java.com.backend.backend.service;
 
-import java.com.backend.backend.model.User;
-import java.com.backend.backend.repository.UserRepository;
+import main.java.com.backend.backend.model.User;
+import main.java.com.backend.backend.repository.UserRepository;
 //import jakarta.validation.constraints.Pattern;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

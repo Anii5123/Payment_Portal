@@ -1,6 +1,6 @@
-package java.com.backend.backend.repository;
+package main.java.com.backend.backend.repository;
 
-import java.com.backend.backend.model.Payment;
+import main.java.com.backend.backend.model.Payment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 import java.util.Optional;

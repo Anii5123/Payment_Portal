@@ -1,7 +1,7 @@
-package java.com.backend.backend.controller;
+package main.java.com.backend.backend.controller;
 
-import java.com.backend.backend.model.User;
-import java.com.backend.backend.service.AuthService;
+import main.java.com.backend.backend.model.User;
+import main.java.com.backend.backend.service.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
