@@ -1,4 +1,4 @@
-package com.backend.backend;
+package java.com.backend.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
