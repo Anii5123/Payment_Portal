@@ -27,4 +27,7 @@ public class Employee {
     @Column(length = 20)
     @Builder.Default
     private String role = "Employee";
+
+    @Column(name = "phone_no", nullable = false, unique = true, length = 10)
+    private String phoneNo;
 }

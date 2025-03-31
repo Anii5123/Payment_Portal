@@ -30,4 +30,7 @@ public class User {
 
     @Column(name = "cancellation_count", columnDefinition = "INT DEFAULT 0")
     private Integer cancellationCount;
+
+    @Column(name = "phone_no", nullable = false, unique = true, length = 10)
+    private String phoneNo;
 }
