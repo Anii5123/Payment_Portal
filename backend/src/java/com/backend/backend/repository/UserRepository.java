@@ -12,4 +12,26 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 
     // Get all users by role (Admin/User)
     List<User> findByRole(String role);
+
+    // Find user by phone number
+    Optional<User> findByPhoneNo(String phoneNo);
+
+    // Check if email already exists
+    boolean existsByEmail(String email);
+
+    // Check if phone number already exists
+    boolean existsByPhoneNo(String phoneNo);
+
+    // Check if user exists by ID
+    boolean existsById(Long id);
+
+    // Find user by ID
+    Optional<User> findById(Long id);
+
+    // Retrieve all users
+    List<User> findAll();
+
+    // Delete user by ID
+    void deleteById(Long id);
+
 }
